@@ -4,7 +4,7 @@
 The Student Exam Performance Predictor is an end-to-end machine learning project designed to predict student's math scores based on various factors such as reading and writing scores, gender, race/ethnicity, parental education level, lunch type, and test preparation course. The project follows a modular approach, ensuring scalability, maintainability, and ease of deployment.<br>
 
 - Key Features:<br>
-  - Graphical User Interface: The project contains a user-friendly interface (GUI) that allows users to input student data and obtain grade predictions through an interactive and intuitive interface.
+  - Graphical User Interface: The project contains a user-friendly interface (GUI) that allows users to input student data and obtain grade predictions through an interactive and intuitive interface. The UI is built using FLask framework, HTML & CSS.
   - Data Processing Pipeline: Automates data ingestion, transformation, and model training.<br>
   - Multiple Regression Models: Trains models like Random Forest, Decision Tree, Gradient Boosting, XGBoost, CatBoost, AdaBoost, and Linear Regression.<br>
   - Best Model Selection: Uses R² score to choose the most accurate model.<br>

@@ -14,7 +14,7 @@ The Student Exam Performance Predictor is an end-to-end machine learning project
 
 - Steps performed by code:Student Exam Performance Predictor is a tool that uses multiple regression models like Random Forest, Decision Tree, Gradient Boosting, XGBoost, CatBoost, AdaBoost, and Linear Regression to predict the Maths grade of a student based on various features like reading and writing scores, gender, race/ethnicity, parental education level, lunch type, and test preparation course. The model is trained on a dataset containing student information, and the user can input values for above features through an interactive Graphical User Interface (GUI) to obtain the predicted Maths grade for a new student.<br>
 
-The predictor uses one-hot encoding for categorical variables and is trained on a dataset that is preprocessed to handle missing values or categorical variables.<br>
+  The predictor uses one-hot encoding for categorical variables and is trained on a dataset that is preprocessed to handle missing values or categorical variables.<br>
 
   1.  Data Loading: The code reads the "notebook\data\stud.csv" file, which contains the student data, using the pandas library. The data is loaded into a DataFrame for further processing. Refer "src\components\data_ingestion.py" for relevant code.<br>
 
